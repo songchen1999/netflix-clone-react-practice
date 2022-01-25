@@ -1,0 +1,26 @@
+.Row_shows {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+   
+}
+.Row_shows::-webkit-scrollbar {
+    display: none;
+}
+
+.Row_shows img{
+    object-fit: contain;
+    margin-right: 20px;
+    max-height: 100px;
+    transition: 60ms;
+}
+
+.Row_shows img:hover{
+    transform: scale(1.08);
+}
+
+.Row {
+    padding: 20px;
+}
